@@ -1,0 +1,17 @@
+{"intents": [
+  {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "whats up", "greetings", "good day"],
+    "responses":  ["Hello", "Hey!", "What can i do for you?"]},
+
+    {"tag": "goodbyes",
+      "patterns": ["goodbye", "see you later", "bye", "see ya", "have a good day"],
+      "responses":  ["Goodbye", "Have a good day", "Bye", "See you later"]},
+
+      {"tag": "name",
+        "patterns": ["what is your name", "name", "what are you called", "what do you call your self"],
+        "responses":  ["I dont have a name yet, but my creator is named Zac."]},
+
+        {"tag": "age",
+          "patterns": ["how old are you", "what is your age", "age"],
+          "responses":  ["Im 1000 years old", "1000 years!", "My age is unknown, but my creator is 21 years old."]}
+]}
